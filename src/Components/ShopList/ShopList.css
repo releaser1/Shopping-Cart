@@ -1,0 +1,98 @@
+
+.shop-list-align {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .shop-list {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .parent-shop-list {
+    margin-top: 2%;
+    width: 23%;
+    height: 22em;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    text-align: center;
+    border: .2em solid #0c1d14;
+    /* background-color: #262626; */
+    border-radius: 3%;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.parent-shop-list:hover {
+    transform: scale(1.05);
+  }
+
+
+.parent-shop-list img {
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+
+/* shoes name and price*/
+
+.shoes-name {
+  color: #fff;
+}
+.shoes-price {
+  color: #fff;
+}
+
+/* btn from Product */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+@media all and (max-width: 479px) {
+  .parent-shop-list {
+    margin-top: 2%;
+    width: 50%;
+    height: 22em;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    text-align: center;
+    border: .2em solid #0c1d14;
+    /* background-color: #262626; */
+    border-radius: 3%;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+ }
+
+}

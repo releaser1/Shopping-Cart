@@ -1,0 +1,124 @@
+.footer-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.inner-footer {    
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(144, 150, 144); */
+    width: 93%;
+    height: min-content;
+}
+.inner-footer1 {    
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(144, 150, 144); */
+    width: 93%;
+    height: min-content;
+}
+
+.footer-inf1 { 
+    /* background-color: rgb(73, 71, 75); */
+    width: 500px;
+    height: 150px;    
+}
+
+.footer-inf1 h4 { 
+   background-color: transparent;
+   color: #fff;
+   font-size: 14px;
+   font-weight: bold;
+   font-family: Oswald;
+   letter-spacing: 0.03em;
+   line-height: 25px;
+   cursor: pointer;
+}
+
+.footer-inf1 h4:hover { 
+    color: rgb(119, 115, 114);
+ }
+
+.footer-inf2 { 
+    /* background-color: rgb(73, 71, 75); */
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-inf2 .follow-text {
+    background-color: transparent;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Oswald;
+    letter-spacing: 0.03em;
+    line-height: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.react-icons-container {
+    width: 70%;
+    margin-top: 5px;
+    background-color: transparent;
+    display: flex;
+    justify-content:space-around;
+    align-self: center;
+}
+
+.react-icons {
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+.inner-footer2 {
+   height: min-content; 
+   padding: -2px;
+}
+
+.footer-hr {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    border: 0;
+    height: 0;
+    border-bottom: 5px solid #fff;    
+}
+
+.inner-footer3 {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .inner-footer3 .company-name {
+    height: 100px;
+    width: 35%;
+ }
+
+ .inner-footer3 .company-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    width: 60%;
+
+}
+
+.inner-footer3 .company-info span {
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(243, 237, 243);
+    line-height: 22px;
+    background-color: transparent;
+    font-family: Oswald;
+}
